@@ -64,6 +64,8 @@ export default function SystemGuard() {
         <>
           ERR-CODE: 503X – Server Disconnected Permanently{"\n\n"}
           Todos os processos foram encerrados. Nenhum recurso está disponível.
+          {"\n\n"}
+          *Ganha direito a um MC.*
         </>
       ) : (
         <>
@@ -72,7 +74,8 @@ export default function SystemGuard() {
           autorizada.
         </>
       )}
-      {"\n\n"}Desenvolvido por Romeu Peniche.
+      {"\n\n"}Desenvolvido por Romeu Peniche:
+      https://github.com/romeupeniche/datavault/tree/master
       {"\n\n"}
       <button onClick={handleRestart} style={{ color: "black" }}>
         reiniciar?
